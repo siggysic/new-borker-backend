@@ -9,7 +9,7 @@ services:
     image: ghost:4.4.0
     restart: always
     ports:
-      - 8080:2368
+      - 80:2368
     environment:
       # see https://ghost.org/docs/config/#configuration-options
       database__client: mysql
