@@ -1,0 +1,62 @@
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Ghost is running in development...","time":"2021-05-24T13:51:30.049Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Listening on: 127.0.0.1:2368","time":"2021-05-24T13:51:30.050Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Url configured as: http://localhost:2368/","time":"2021-05-24T13:51:30.051Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Ctrl+C to shut down","time":"2021-05-24T13:51:30.052Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Ghost server started in 1.804s","time":"2021-05-24T13:51:30.054Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":40,"msg":"Database state requires initialisation.","time":"2021-05-24T13:51:30.771Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: posts","time":"2021-05-24T13:51:31.420Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: posts_meta","time":"2021-05-24T13:51:31.425Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: users","time":"2021-05-24T13:51:31.429Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: posts_authors","time":"2021-05-24T13:51:31.435Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: roles","time":"2021-05-24T13:51:31.438Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: roles_users","time":"2021-05-24T13:51:31.443Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: permissions","time":"2021-05-24T13:51:31.446Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: permissions_users","time":"2021-05-24T13:51:31.450Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: permissions_roles","time":"2021-05-24T13:51:31.452Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: settings","time":"2021-05-24T13:51:31.454Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: tags","time":"2021-05-24T13:51:31.457Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: posts_tags","time":"2021-05-24T13:51:31.460Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: invites","time":"2021-05-24T13:51:31.462Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: brute","time":"2021-05-24T13:51:31.467Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: sessions","time":"2021-05-24T13:51:31.469Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: integrations","time":"2021-05-24T13:51:31.472Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: webhooks","time":"2021-05-24T13:51:31.475Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: api_keys","time":"2021-05-24T13:51:31.478Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: mobiledoc_revisions","time":"2021-05-24T13:51:31.481Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members","time":"2021-05-24T13:51:31.484Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: products","time":"2021-05-24T13:51:31.491Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_products","time":"2021-05-24T13:51:31.496Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_payment_events","time":"2021-05-24T13:51:31.499Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_login_events","time":"2021-05-24T13:51:31.501Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_email_change_events","time":"2021-05-24T13:51:31.503Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_status_events","time":"2021-05-24T13:51:31.505Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_paid_subscription_events","time":"2021-05-24T13:51:31.506Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: labels","time":"2021-05-24T13:51:31.508Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_labels","time":"2021-05-24T13:51:31.512Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_stripe_customers","time":"2021-05-24T13:51:31.513Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_stripe_customers_subscriptions","time":"2021-05-24T13:51:31.516Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: members_subscribe_events","time":"2021-05-24T13:51:31.520Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: stripe_products","time":"2021-05-24T13:51:31.521Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: stripe_prices","time":"2021-05-24T13:51:31.525Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: actions","time":"2021-05-24T13:51:31.529Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: emails","time":"2021-05-24T13:51:31.535Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: email_batches","time":"2021-05-24T13:51:31.541Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: email_recipients","time":"2021-05-24T13:51:31.543Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: tokens","time":"2021-05-24T13:51:31.550Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Creating table: snippets","time":"2021-05-24T13:51:31.553Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Product","time":"2021-05-24T13:51:31.558Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Tag","time":"2021-05-24T13:51:31.586Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Role","time":"2021-05-24T13:51:31.593Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Permission","time":"2021-05-24T13:51:31.611Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: User","time":"2021-05-24T13:51:31.787Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Post","time":"2021-05-24T13:51:32.253Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Model: Integration","time":"2021-05-24T13:51:32.555Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Relation: Role to Permission","time":"2021-05-24T13:51:32.575Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Relation: Post to Tag","time":"2021-05-24T13:51:32.805Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Relation: User to Role","time":"2021-05-24T13:51:32.827Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Database is in a ready state.","time":"2021-05-24T13:51:32.940Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Ghost database ready in 4.69s","time":"2021-05-24T13:51:32.940Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":30,"msg":"Ghost booted in 8.286s","time":"2021-05-24T13:51:36.537Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":40,"msg":"Ghost is shutting down","time":"2021-05-24T13:57:09.444Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":40,"msg":"Ghost has shut down","time":"2021-05-24T13:57:09.449Z","v":0}
+{"name":"Log","hostname":"ip-192-168-2-34.ap-southeast-1.compute.internal","pid":15602,"level":40,"msg":"Ghost was running for 6 minutes","time":"2021-05-24T13:57:09.451Z","v":0}

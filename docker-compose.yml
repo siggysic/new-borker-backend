@@ -1,0 +1,32 @@
+version: '3.9'
+
+services:
+  # db:
+  #   image: mysql
+  #   volumes:
+  #     - db_data:/var/lib/mysql
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   restart: always
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: Z#[?DpFp3q4_#]dj
+
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
+
+  blogger:
+    network_mode: bridge
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "2368:2368"
+    volumes:
+      - blogger-vol:/home/sig/.ghost/logs
+
+  
+volumes:
+  blogger-vol:
+    external: true

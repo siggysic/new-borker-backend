@@ -1,0 +1,27 @@
+{
+  "url": "http://localhost:2368/",
+  "ssl": false,
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "172.17.0.2",
+      "port": 3306,
+      "user": "root",
+      "password": "password",
+      "database": "dongkamkan"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  }
+}

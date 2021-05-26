@@ -1,0 +1,36 @@
+# by default, the Ghost image will use SQLite (and thus requires no separate database container)
+# we have used MySQL here merely for demonstration purposes (especially environment-variable-based configuration)
+
+version: '3.1'
+
+services:
+
+  ghost:
+    image: ghost:4.4.0
+    network_mode: bridge
+    restart: always
+    ports:
+      - 8080:2368
+    environment:
+      # see https://ghost.org/docs/config/#configuration-options
+      database__client: mysql
+      database__connection__host: 172.17.0.2
+      database__connection__user: root
+      database__connection__password: password
+      database__connection__database: dongkamkan
+      url: http://localhost:8080
+      NODE_ENV: production
+
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Z#[?DpFp3q4_#]dj
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8081:8080
