@@ -29,11 +29,11 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: Z#[?DpFp3q4_#]dj
 
-  adminer:
-    image: adminer
+  myadmin:
+    image: phpmyadmin
     restart: always
     ports:
-      - 8081:8080
+      - 9090:80
 
 volumes:
   db_data:
