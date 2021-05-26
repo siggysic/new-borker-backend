@@ -7,7 +7,6 @@ services:
 
   ghost:
     image: ghost:4.4.0
-    network_mode: bridge
     restart: always
     ports:
       - 8080:2368
