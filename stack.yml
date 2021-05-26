@@ -17,7 +17,7 @@ services:
       database__connection__user: root
       database__connection__password: Z#[?DpFp3q4_#]dj
       database__connection__database: dongkamkan
-      url: http://172.104.62.40
+      url: dongkamkan.com
       NODE_ENV: production
 
   db:
