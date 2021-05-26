@@ -14,9 +14,9 @@ services:
     environment:
       # see https://ghost.org/docs/config/#configuration-options
       database__client: mysql
-      database__connection__host: 172.17.0.2
+      database__connection__host: mysql
       database__connection__user: root
-      database__connection__password: password
+      database__connection__password: Z#[?DpFp3q4_#]dj
       database__connection__database: dongkamkan
       url: http://localhost:8080
       NODE_ENV: production
